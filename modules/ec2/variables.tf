@@ -1,5 +1,19 @@
-variable "ami_id" {}
-variable "instance_type" {} 
-variable "userdata_file" {}
-variable "instance_name" {}
-variable "subnet_id" {}
+variable "ami_id" {
+  type = string
+}
+
+variable "instance_type" {
+  type = string
+}
+
+variable "userdata_file" {
+  type = string
+}
+
+variable "instance_name" {
+  type = string
+}
+
+variable "subnet_id" {
+  type = string
+}

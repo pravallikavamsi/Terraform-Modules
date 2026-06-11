@@ -1,2 +1,7 @@
-variable "vpc_name" {}
-variable "cidr" {}  
+variable "vpc_name" {
+  type = string
+}
+
+variable "cidr" {
+  type = string
+}
